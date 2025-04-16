@@ -1,0 +1,557 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9107391279524948571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968f5dae537da714e8c4a0f04af03e01, type: 3}
+  m_Name: DebugLogTask
+  m_EditorClassIdentifier: 
+  nodeName: Debug Log
+  nodePosition: {x: 1060, y: 814}
+  breakpoint: 0
+  decorators: []
+  services: []
+  ignoreAbortSelf: 0
+  logLevel: 0
+  message: {fileID: -8847623254264403483}
+--- !u!114 &-8847623254264403483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcfcad34f5547eb4292ce0c46aef412c, type: 3}
+  m_Name: message
+  m_EditorClassIdentifier: 
+  category: 
+  description: 
+  sync: 0
+  isLocal: 1
+  value: Successfully created army
+--- !u!114 &-8675579638245746155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd402de4eb7669046830c326d89b03b4, type: 3}
+  m_Name: waitTime
+  m_EditorClassIdentifier: 
+  category: 
+  description: 
+  sync: 0
+  isLocal: 1
+  value: 1
+--- !u!114 &-8435228713867227094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e9d85a6f23e74e4abcad00c30eadd1b, type: 3}
+  m_Name: IsArmySpawnTypeDecorator
+  m_EditorClassIdentifier: 
+  nodeName: Is Army Spawn Type
+  nodePosition: {x: 0, y: 0}
+  breakpoint: 0
+  child: {fileID: 0}
+  inverseCondition: 0
+  waitUntilTrue: 0
+  firstInput: {fileID: -9048669002759425895, guid: 1c24ef07d391bb04c9a41f2385578fd2,
+    type: 2}
+  secondInput: {fileID: 5301703065465459502}
+--- !u!114 &-7179857595253344690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3e7bd978a67c9b4db53d7626fff470e, type: 3}
+  m_Name: secondInput
+  m_EditorClassIdentifier: 
+  category: 
+  description: 
+  sync: 0
+  isLocal: 1
+  value: 1
+--- !u!114 &-6348272359145124244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa1770628119ce54980deb844516c178, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  nodeName: Selector
+  nodePosition: {x: 684, y: 225}
+  breakpoint: 0
+  decorators: []
+  services: []
+  children:
+  - {fileID: 6166483315289010984}
+--- !u!114 &-5971998066017555635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20ecbd642284b504ca1789fb521bbe87, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  nodeName: Spawn outside player view
+  nodePosition: {x: 1238, y: 657}
+  breakpoint: 0
+  decorators:
+  - {fileID: 6175638512680464125}
+  services: []
+  children:
+  - {fileID: -2709903335930028451}
+--- !u!114 &-4882866285795731112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ded92f1047cb3fc4b8e3b38374ac12b3, type: 3}
+  m_Name: HasEnoughCurrencyDecorator
+  m_EditorClassIdentifier: 
+  nodeName: HasEnoughCurrency
+  nodePosition: {x: 0, y: 0}
+  breakpoint: 0
+  child: {fileID: 0}
+  inverseCondition: 0
+  waitUntilTrue: 0
+  requiredCurrency: {fileID: -3392617437424358609}
+--- !u!114 &-4222068323293529712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51024ca693853b949837ede5545f4b30, type: 3}
+  m_Name: CreateArmyTask
+  m_EditorClassIdentifier: 
+  nodeName: Spawn Army
+  nodePosition: {x: 867, y: 814}
+  breakpoint: 0
+  decorators: []
+  services: []
+  ignoreAbortSelf: 0
+  spawnLocation: {fileID: -5336812038117130302, guid: 1c24ef07d391bb04c9a41f2385578fd2,
+    type: 2}
+  squadAmount: {fileID: 3832630999346551277, guid: 1c24ef07d391bb04c9a41f2385578fd2,
+    type: 2}
+--- !u!114 &-3990935029754078965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20ecbd642284b504ca1789fb521bbe87, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  nodeName: Sequencer
+  nodePosition: {x: 739.5, y: 107}
+  breakpoint: 0
+  decorators: []
+  services: []
+  children:
+  - {fileID: -6348272359145124244}
+  - {fileID: -190227781185631117}
+--- !u!114 &-3392617437424358609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4342cf7e7aa28924ab39d3e45018358f, type: 3}
+  m_Name: requiredCurrency
+  m_EditorClassIdentifier: 
+  category: 
+  description: 
+  sync: 0
+  isLocal: 1
+  value: 150
+--- !u!114 &-3226470753898981550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa1770628119ce54980deb844516c178, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  nodeName: Spawn based on type
+  nodePosition: {x: 922, y: 539}
+  breakpoint: 0
+  decorators: []
+  services: []
+  children:
+  - {fileID: 7950547690116947040}
+  - {fileID: -5971998066017555635}
+--- !u!114 &-2709903335930028451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968f5dae537da714e8c4a0f04af03e01, type: 3}
+  m_Name: DebugLogTask
+  m_EditorClassIdentifier: 
+  nodeName: Debug Log
+  nodePosition: {x: 1293.5, y: 814}
+  breakpoint: 0
+  decorators: []
+  services: []
+  ignoreAbortSelf: 0
+  logLevel: 1
+  message: {fileID: 3729624949525780505}
+--- !u!114 &-2619014887254040403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec79b5f6b848b34598982eec6dbbcba, type: 3}
+  m_Name: GetRandomArmySpawnTypeTask
+  m_EditorClassIdentifier: 
+  nodeName: Get Random Army Spawn Type
+  nodePosition: {x: 0, y: 539}
+  breakpoint: 0
+  decorators: []
+  services: []
+  ignoreAbortSelf: 0
+  outputArmySpawnType: {fileID: -9048669002759425895, guid: 1c24ef07d391bb04c9a41f2385578fd2,
+    type: 2}
+--- !u!114 &-875571815851484854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4342cf7e7aa28924ab39d3e45018358f, type: 3}
+  m_Name: minRadius
+  m_EditorClassIdentifier: 
+  category: 
+  description: 
+  sync: 0
+  isLocal: 1
+  value: 2
+--- !u!114 &-190227781185631117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85263108a8bd9e0469feac3580755ae9, type: 3}
+  m_Name: WaitTask
+  m_EditorClassIdentifier: 
+  nodeName: Wait
+  nodePosition: {x: 1527, y: 225}
+  breakpoint: 0
+  decorators: []
+  services: []
+  ignoreAbortSelf: 0
+  waitTime: {fileID: -8675579638245746155}
+  randomDeviation: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f7a65a64ca895842abc0e2c774d054e, type: 3}
+  m_Name: FactionTree
+  m_EditorClassIdentifier: 
+  blackboard: {fileID: 11400000, guid: 1c24ef07d391bb04c9a41f2385578fd2, type: 2}
+  updateMode: 0
+  tickRate: 30
+  rootNode: {fileID: 2289092435735400405}
+  nodes:
+  - {fileID: 2289092435735400405}
+  - {fileID: -3990935029754078965}
+  - {fileID: -6348272359145124244}
+  - {fileID: 6166483315289010984}
+  - {fileID: -4882866285795731112}
+  - {fileID: -190227781185631117}
+  - {fileID: -2619014887254040403}
+  - {fileID: 6104136893224467721}
+  - {fileID: -5971998066017555635}
+  - {fileID: 6175638512680464125}
+  - {fileID: -3226470753898981550}
+  - {fileID: -2709903335930028451}
+  - {fileID: -8435228713867227094}
+  - {fileID: 7950547690116947040}
+  - {fileID: -9107391279524948571}
+  - {fileID: -4222068323293529712}
+  - {fileID: 4765110877234514095}
+  - {fileID: 2474005994820727690}
+  groups: []
+  notes: []
+  selectedNode: {fileID: 0}
+--- !u!114 &2289092435735400405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9bdc4129dd9f64c97141f9b4995906, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  nodeName: 
+  nodePosition: {x: 753, y: 0}
+  breakpoint: 0
+  child: {fileID: -3990935029754078965}
+--- !u!114 &2474005994820727690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5185dfac9058c943983ba6af04648e7, type: 3}
+  m_Name: HasReachedMaxArmyAmountDecorator
+  m_EditorClassIdentifier: 
+  nodeName: Has Reached Max Army Amount
+  nodePosition: {x: 0, y: 0}
+  breakpoint: 0
+  child: {fileID: 0}
+  inverseCondition: 1
+  waitUntilTrue: 0
+--- !u!114 &3729624949525780505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcfcad34f5547eb4292ce0c46aef412c, type: 3}
+  m_Name: message
+  m_EditorClassIdentifier: 
+  category: 
+  description: 
+  sync: 0
+  isLocal: 1
+  value: Not implemented yet.
+--- !u!114 &4765110877234514095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bbda210ef632704aa684cfaa4b8c0ee, type: 3}
+  m_Name: GetRandomSquadAmountTask
+  m_EditorClassIdentifier: 
+  nodeName: Get Random Squad Amount
+  nodePosition: {x: 289, y: 539}
+  breakpoint: 0
+  decorators: []
+  services: []
+  ignoreAbortSelf: 0
+  outputSquadAmount: {fileID: 3832630999346551277, guid: 1c24ef07d391bb04c9a41f2385578fd2,
+    type: 2}
+--- !u!114 &5301703065465459502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3e7bd978a67c9b4db53d7626fff470e, type: 3}
+  m_Name: secondInput
+  m_EditorClassIdentifier: 
+  category: 
+  description: 
+  sync: 0
+  isLocal: 1
+  value: 0
+--- !u!114 &6075123625690356872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4342cf7e7aa28924ab39d3e45018358f, type: 3}
+  m_Name: radius
+  m_EditorClassIdentifier: 
+  category: 
+  description: 
+  sync: 0
+  isLocal: 1
+  value: 3
+--- !u!114 &6104136893224467721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e85ac6273b8f849b8547a481febdfa, type: 3}
+  m_Name: GetRandomStructureTransformTask
+  m_EditorClassIdentifier: 
+  nodeName: Get Random Structure Transform
+  nodePosition: {x: 578, y: 814}
+  breakpoint: 0
+  decorators: []
+  services: []
+  ignoreAbortSelf: 0
+  factionOwnedStructuresOnly: {fileID: 6362822935480979202}
+  radius: {fileID: 6075123625690356872}
+  minRadius: {fileID: -875571815851484854}
+  structurePosition: {fileID: -5336812038117130302, guid: 1c24ef07d391bb04c9a41f2385578fd2,
+    type: 2}
+--- !u!114 &6166483315289010984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20ecbd642284b504ca1789fb521bbe87, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  nodeName: Spawn Army
+  nodePosition: {x: 619, y: 343}
+  breakpoint: 0
+  decorators:
+  - {fileID: -4882866285795731112}
+  - {fileID: 2474005994820727690}
+  services: []
+  children:
+  - {fileID: -2619014887254040403}
+  - {fileID: 4765110877234514095}
+  - {fileID: -3226470753898981550}
+--- !u!114 &6175638512680464125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e9d85a6f23e74e4abcad00c30eadd1b, type: 3}
+  m_Name: IsArmySpawnTypeDecorator
+  m_EditorClassIdentifier: 
+  nodeName: Is Army Spawn Type
+  nodePosition: {x: 0, y: 0}
+  breakpoint: 0
+  child: {fileID: 0}
+  inverseCondition: 0
+  waitUntilTrue: 0
+  firstInput: {fileID: -9048669002759425895, guid: 1c24ef07d391bb04c9a41f2385578fd2,
+    type: 2}
+  secondInput: {fileID: -7179857595253344690}
+--- !u!114 &6362822935480979202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b97a1cab3e25e246a1321c1c6515ce3, type: 3}
+  m_Name: factionOwnedStructuresOnly
+  m_EditorClassIdentifier: 
+  category: 
+  description: 
+  sync: 0
+  isLocal: 1
+  value: 1
+--- !u!114 &7950547690116947040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20ecbd642284b504ca1789fb521bbe87, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  nodeName: Spawn at owned structures
+  nodePosition: {x: 763.5, y: 657}
+  breakpoint: 0
+  decorators:
+  - {fileID: -8435228713867227094}
+  services: []
+  children:
+  - {fileID: 6104136893224467721}
+  - {fileID: -4222068323293529712}
+  - {fileID: -9107391279524948571}

@@ -1,0 +1,5 @@
+﻿[assembly: System.Reflection.AssemblyCompany("Renowned Games")]
+[assembly: System.Reflection.AssemblyTitle("AITree")]
+[assembly: System.Reflection.AssemblyVersion("1.1.0")]
+[assembly: System.Reflection.AssemblyCopyright("Copyright 2022 Renowned Games All rights reserved.")]
+[assembly: UnityEngine.Scripting.Preserve]

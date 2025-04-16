@@ -1,0 +1,17 @@
+[
+    {
+        "Id": "Base_Dialogue_City",
+        "Active": true,
+        "Text": "What can we help you with? Interested in some fine materials?"
+    },
+    {
+        "Id": "Base_Dialogue_City_Talk",
+        "Active": true,
+        "Text": "Well, what do you want from us? Usually I'm not in a talking-mood.."
+    },
+    {
+        "Id": "Base_Dialogue_Generic_Army",
+        "Active": true,
+        "Text": "Go on about your day! I have no plans on doing business with you! Or you wanna get fucked up?"
+    }
+]

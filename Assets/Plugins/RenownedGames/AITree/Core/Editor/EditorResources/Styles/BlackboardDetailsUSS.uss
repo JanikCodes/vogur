@@ -1,0 +1,59 @@
+.foldout .unity-foldout__toggle {
+	background-color: rgb(70, 70, 70);
+	-unity-font-style: bold;
+
+	margin: 5px 0 0 0;
+	padding: 2px;
+}
+
+.foldout #unity-content{
+	margin: 0;
+	overflow: hidden;
+	-unity-overflow-clip-box: content-box;
+	height: 100%;
+}
+
+#type-container {
+	height: 18px;
+	flex-direction: row;
+}
+
+#type-lable {
+	padding: 2px 2px 0 1px;
+}
+
+#type-color {
+	position: absolute;
+
+	top: 7px;
+	left: 153px;
+	width: 17px;
+	height: 6px;
+
+	border-radius: 3px;
+}
+
+#type-field {
+	position: absolute;
+	padding: 2px 2px 0 1px;
+	left: 174px;
+}
+
+#pre-container {
+	margin-top: 2px;
+}
+
+#blackboard-name {
+    position: absolute;
+
+    right: 5px;
+    bottom: 5px;
+
+    color: rgba(255, 255, 255, .1);
+    font-size: 20px;
+    -unity-font-style: bold;
+}
+
+.container {
+	margin: 1px 3px 1px 3px;
+}

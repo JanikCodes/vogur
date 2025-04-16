@@ -1,0 +1,12 @@
+[
+    {
+        "Id": "Base_Player",
+        "Active": true,
+        "InitiallyOwnedByFaction": "Base_Player",
+        "SpawnPosition": [
+            10,
+            0,
+            10
+        ]
+    }
+]

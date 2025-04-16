@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+	<uie:Toolbar>
+        <uie:ToolbarButton name="toolbar-new-key" text="New Key" />
+    </uie:Toolbar>
+    <ui:VisualElement name="search-container">
+        <ui:TextField name="search-input">
+            <ui:Label name="search-placeholder" text="Search" />
+        </ui:TextField>
+    </ui:VisualElement>
+    <ui:Foldout class="foldout" name="inherited-keys-foldout" text="INHERITED KEYS">
+        <RenownedGames.AITreeEditor.UIElements.ListElement name="inherited-keys-list" />
+    </ui:Foldout>
+    <ui:Foldout class="foldout" name="keys-foldout" text="KEYS">
+        <RenownedGames.AITreeEditor.UIElements.ListElement name="keys-list" />
+    </ui:Foldout>
+    <ui:Label name="blackboard-name" text="BLACKBOARD" picking-mode="Ignore" />
+</ui:UXML>

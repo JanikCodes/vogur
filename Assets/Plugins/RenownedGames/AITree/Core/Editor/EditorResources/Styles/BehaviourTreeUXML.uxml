@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="toolbar-container">
+        <uie:Toolbar name="toolbar-left">
+            <uie:ToolbarMenu name="toolbar-assets" text="Assets" />
+        </uie:Toolbar>
+        <uie:Toolbar name="toolbar-right">
+            <uie:ToolbarButton name="save-button" text="Save" />
+            <uie:ToolbarToggle name="auto-save-toggle" text="Auto save" />
+        </uie:Toolbar>
+    </ui:VisualElement>
+    <ui:VisualElement name="tree-container">
+        <RenownedGames.AITreeEditor.BehaviourTreeGraph name="tree" />
+        <ui:VisualElement name="simulating-border" picking-mode="Ignore">
+            <ui:Label name="simulating-lable" text="PLAYING" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:Label name="tree-name" text="BEHAVIOUR TREE" picking-mode="Ignore" />
+        <ui:Label name="node-description" text="Node description..." picking-mode="Ignore" />
+    </ui:VisualElement>
+</ui:UXML>

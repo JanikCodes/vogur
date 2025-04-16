@@ -1,0 +1,48 @@
+[
+    {
+        "Id": "Base_Player",
+        "Active": true,
+        "Name": "ToBeChanged",
+        "Visible": false,
+        "Description": "Player Description",
+        "MaxArmyCountOnOverworld": 0,
+        "StartCurrencyAmount": 10000,
+        "MinSquadAmount": 2,
+        "MaxSquadAmount": 5,
+        "FactionArmySpawnType": [
+            "OutsidePlayerView",
+            "OwnedStructures"
+        ],
+        "AssignedArmyDialogueId": "Base_Dialogue_Generic_Army"
+    },
+    {
+        "Id": "Base_Hunter",
+        "Active": true,
+        "Name": "Hunter",
+        "Visible": true,
+        "Description": "Nothing to say about.",
+        "MaxArmyCountOnOverworld": 3,
+        "StartCurrencyAmount": 35000,
+        "MinSquadAmount": 1,
+        "MaxSquadAmount": 5,
+        "FactionArmySpawnType": [
+            "OwnedStructures"
+        ],
+        "AssignedArmyDialogueId": "Base_Dialogue_Generic_Army"
+    },
+    {
+        "Id": "Base_Matronos",
+        "Active": true,
+        "Name": "Matronos",
+        "Visible": true,
+        "Description": "Nothing to say about.",
+        "MaxArmyCountOnOverworld": 3,
+        "StartCurrencyAmount": 35000,
+        "MinSquadAmount": 2,
+        "MaxSquadAmount": 4,
+        "FactionArmySpawnType": [
+            "OwnedStructures"
+        ],
+        "AssignedArmyDialogueId": "Base_Dialogue_Generic_Army"
+    }
+]

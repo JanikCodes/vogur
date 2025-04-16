@@ -1,0 +1,369 @@
+.selection-border {
+    position: absolute;
+
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+
+    border-radius: 10px;
+    
+    transition-duration: .05s;
+}
+
+
+.node {
+    margin: 0;
+    padding: 0;
+    max-width: 250px;
+}
+
+#node {
+    border-radius: 8px;
+    background-color: rgba(73, 73, 73, 1);
+    color: white;
+    cursor: move-arrow;
+}
+
+
+#header {
+
+}
+
+#body {
+
+}
+
+#footer {
+
+}
+
+
+.connector {
+    height: 15px;
+    margin: 0 17px 0 17px;
+    background-color: rgb(45, 45, 45);
+
+    transition-duration: .05s;
+}
+
+#input {
+    margin-bottom: 3px;
+    border-radius: 0 0 4px 4px;
+}
+
+#output {
+    margin-top: 3px;
+    border-radius: 4px 4px 0 0;
+}
+
+.port {
+    justify-content: center;
+}
+
+.connectorText {
+    display: none;
+}
+
+
+#decorators-container {
+    padding: 0 6px 0 6px;
+}
+
+#services-container {
+    padding: 0 6px 0 6px;
+}
+
+
+.node-info {
+    margin: 1px 7px 1px 7px;
+    
+    padding: 1px;
+
+    border-color: #2D2D2D;
+    border-width: 1px;
+    border-radius: 2px;
+
+    background-color: rgb(64, 64, 64);
+}
+
+
+#info-header {
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#info-footer {
+    min-height: 12px;
+    max-height: 71px;
+}
+
+
+#info-icon {
+    display: none;
+
+    min-width: 18px;
+    max-width: 18px;
+
+    min-height: 18px;
+    max-height: 18px;
+
+    margin: 2px;
+    margin-right: -10px;
+}  
+
+.info-title {
+    font-size: 16px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-left;
+    -unity-text-overflow-position: end;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+#info-description {
+    color: rgb(200, 200, 200);
+    max-width: 100%;
+    font-size: 10px;
+    white-space: normal;
+    overflow: hidden;
+}
+
+#sequence-number {
+    position: absolute;
+
+    top: -7px;
+    right: -16px;
+
+    width: 14px;
+    height: 14px;
+
+    margin: 0;
+    padding: 0;
+
+    font-size: 8px;
+    -unity-text-align: middle-center;
+
+    border-radius: 100%;
+    border-width: 1px;
+
+    border-color: #2D2D2D;
+
+    background-color: rgb(100, 100, 100);
+}
+
+.node-progress-bar {
+    position: absolute;
+
+    background-color: rgba(73, 73, 73, 1);
+
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: #2D2D2D;
+
+    top: 0px;
+    bottom: 0px;
+    left: -7px;
+
+    width: 5px;
+}
+
+.node-progress-bar__progress {
+    position: absolute;
+
+    background-color: #fdfff5;
+
+    border-radius: 1px;
+
+    width: 100%;
+    height: 50%;
+
+    bottom: 0px;
+}
+
+#breakpoint {
+    display: none;
+
+    position: absolute;
+
+    top: 4px;
+    left: 4px;
+
+    width: 10px;
+    height: 10px;
+
+    margin: 0;
+    padding: 0;
+
+    font-size: 8px;
+    -unity-text-align: middle-center;
+
+    border-radius: 100%;
+    border-width: 1px;
+
+    border-color: #2D2D2D;
+
+    background-color: rgb(200, 50, 50);
+}
+
+/* Root node */
+.root #node {
+    background-color: rgba(73, 73, 73, .5);
+}
+
+.root #header {
+    display: none;
+}
+
+.root #body {
+    margin-top: 7px;
+}
+
+.root .node-info {
+    background-image: url("Textures/GrayGradient.png");
+    background-color: rgb(62, 62, 62);
+}
+
+.root #sequence-number{
+    display: none;
+}
+
+/* Composite node */
+.composite .node-info {
+    background-image: url("Textures/GrayGradient.png");
+    background-color: rgb(62, 62, 62);
+}
+
+/* Task node */
+.task #footer {
+    display: none;
+}
+
+.task #body {
+    margin-bottom: 7px;
+}
+
+.task .node-info {
+    background-image: url("Textures/PurpleGradient.png");
+    background-color: rgb(115, 55, 189);
+}
+
+.temp-task .node-info {
+    background-image: url("Textures/DPurpleGradient.png");
+    background-color: rgb(115, 55, 189);
+}
+
+/* Decorators */ 
+#decorators-container .node-info {
+    margin: 0;
+    padding: 0px 1px;
+}
+
+#decorators-container .selection-border{
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+
+    border-radius: 3px;
+}
+
+.decorator .node-info {
+    background-image: url("Textures/BlueGradient.png");
+    background-color: rgb(62, 62, 62);
+}
+
+.temp-decorator .node-info {
+    background-image: url("Textures/DBlueGradient.png");
+    background-color: rgb(62, 62, 62);
+}
+
+
+.unconnected .decorator #sequence-number {
+    display: none;
+}
+
+/* Services */ 
+#services-container .node-info {
+    margin: 0;
+    padding: 0px 1px;
+}
+
+#services-container .selection-border{
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+
+    border-radius: 3px;
+}
+
+.service .node-info {
+    background-image: url("Textures/GreenGradient.png");
+    background-color: rgb(62, 62, 62);
+}
+
+.temp-service .node-info {
+    background-image: url("Textures/DGreenGradient.png");
+    background-color: rgb(62, 62, 62);
+}
+
+
+.unconnected .service #sequence-number {
+    display: none;
+}
+
+/* Pseudo classes */
+:checked > .selection-border {
+    border-color: #F4CA16;
+    border-width: 1px;
+}
+
+/* Node state */
+.success #node {
+    background-color: rgb(68, 169, 101);
+}
+
+.failure #node {
+    background-color: rgb(193, 64, 54);
+}
+
+.aborted #node {
+    background-color: rgb(38, 93, 163)
+}
+
+.running #node {
+    background-color: rgb(254, 234, 4);
+}
+
+.unconnected #sequence-number {
+    color: rgba(0, 0, 0, 0);
+
+    -unity-slice-bottom: 3;
+    -unity-slice-top: 2;
+    -unity-slice-left: 2;
+    -unity-slice-right: 1;
+
+    background-image: resource("d_console.warnicon@2x");
+    overflow: visible;
+}
+
+/* Node properties 
+#node-properties-container {
+    position: absolute;
+
+    left: 100%;
+    width: 200px;
+
+    min-height: 100%;
+    margin-left: 5px;
+
+    border-color: rgb(37, 37, 37);
+
+    background-color: #383838;
+}
+*/

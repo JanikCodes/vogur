@@ -1,0 +1,157 @@
+[
+    {
+        "Id": "Base_Choice_City_Talk",
+        "Active": true,
+        "AssignedDialogueId": "Base_Dialogue_City",
+        "ChoiceText": "Talk",
+        "JumpToDialogueId": "Base_Dialogue_City_Talk",
+        "Requirements": [
+            {
+                "Type": "IsDialogueType",
+                "Properties": {
+                    "Self": true,
+                    "Type": "Talking"
+                }
+            }
+        ],
+        "Actions": []
+    },
+    {
+        "Id": "Base_Choice_City_Talk_Alien",
+        "Active": true,
+        "AssignedDialogueId": "Base_Dialogue_City",
+        "ChoiceText": "Visit an alien planet",
+        "JumpToDialogueId": "Base_Dialogue_City_Talk",
+        "TextColor": [
+            34,
+            139,
+            34
+        ],
+        "Requirements": [
+            {
+                "Type": "IsDialogueType",
+                "Properties": {
+                    "Self": true,
+                    "Type": "Talking"
+                }
+            }
+        ],
+        "Actions": []
+    },
+    {
+        "Id": "Base_Choice_City_Tutorial_Quest",
+        "Active": true,
+        "AssignedDialogueId": "Base_Dialogue_City",
+        "ChoiceText": "Soo, what did you hear from city A?",
+        "JumpToDialogueId": "",
+        "Requirements": [
+            {
+                "Type": "IsAtQuestStep",
+                "Properties": {
+                    "Self": true,
+                    "QuestStepId": "Base_Quest_Tutorial_Step_2"
+                }
+            },
+            {
+                "Type": "IsAtStructure",
+                "Properties": {
+                    "Self": true,
+                    "StructureId": "Base_Village_B"
+                }
+            },
+            {
+                "Type": "IsDialogueType",
+                "Properties": {
+                    "Self": true,
+                    "Type": "Talking"
+                }
+            }
+        ],
+        "Actions": []
+    },
+    {
+        "Id": "Base_Choice_City_Leave",
+        "Active": true,
+        "AssignedDialogueId": "Base_Dialogue_City",
+        "ChoiceText": "Leave",
+        "JumpToDialogueId": "",
+        "TextColor": [
+            255,
+            0,
+            0
+        ],
+        "Requirements": [
+            {
+                "Type": "IsDialogueType",
+                "Properties": {
+                    "Self": true,
+                    "Type": "Talking"
+                }
+            }
+        ],
+        "Actions": [
+            {
+                "Type": "DismissDialogue",
+                "Properties": {
+                    "Self": true
+                }
+            }
+        ]
+    },
+    {
+        "Id": "Base_Choice_City_Talk_Fight",
+        "Active": true,
+        "AssignedDialogueId": "Base_Dialogue_City_Talk",
+        "ChoiceText": "Let's fight! Haha just kidding..",
+        "JumpToDialogueId": "Base_Dialogue_City",
+        "Requirements": [],
+        "Actions": []
+    },
+    {
+        "Id": "Base_Choice_City_Talk_Nevermind",
+        "Active": true,
+        "AssignedDialogueId": "Base_Dialogue_City_Talk",
+        "ChoiceText": "Nevermind..",
+        "JumpToDialogueId": "Base_Dialogue_City",
+        "Requirements": [],
+        "Actions": []
+    },
+    {
+        "Id": "Base_Choice_Generic_Army_Talk",
+        "Active": true,
+        "AssignedDialogueId": "Base_Dialogue_Generic_Army",
+        "ChoiceText": "Let's talk first..",
+        "JumpToDialogueId": "Base_Dialogue_Generic_Army",
+        "Requirements": [
+            {
+                "Type": "IsDialogueType",
+                "Properties": {
+                    "Self": true,
+                    "Type": "Talking"
+                }
+            }
+        ],
+        "Actions": []
+    },
+    {
+        "Id": "Base_Choice_Generic_Army_Bye",
+        "Active": true,
+        "AssignedDialogueId": "Base_Dialogue_Generic_Army",
+        "ChoiceText": "Leave",
+        "JumpToDialogueId": "Base_Dialogue_Generic_Army",
+        "TextColor": [
+            255,
+            0,
+            0
+        ],
+        "Requirements": [],
+        "Actions": [
+            {
+                "Type": "DismissDialogue",
+                "Properties": {
+                    "Self": true
+                }
+            }
+        ]
+    }
+]

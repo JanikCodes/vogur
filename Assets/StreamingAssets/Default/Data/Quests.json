@@ -1,0 +1,61 @@
+[
+    {
+        "Id": "Base_Quest_Tutorial",
+        "Active": true,
+        "Title": "Let's get started.",
+        "Description": "This is a small tutorial quest which will get you started learning the basics.",
+        "Steps": [
+            {
+                "Id": "Base_Quest_Tutorial_Step_1",
+                "Active": true,
+                "Objectives": [
+                    {
+                        "Text": "Talk to the people at city A.",
+                        "Type": "VisitStructure",
+                        "Properties": {
+                            "Target": "Base_Village_A"
+                        }
+                    }
+                ]
+            },
+            {
+                "Id": "Base_Quest_Tutorial_Step_2",
+                "Active": true,
+                "Objectives": [
+                    {
+                        "Text": "Hear what city B has to say.",
+                        "Type": "VisitStructure",
+                        "Properties": {
+                            "Target": "Base_Village_B"
+                        }
+                    }
+                ]
+            }
+        ],
+        "AcceptedFromStart": true,
+        "AutoComplete": true
+    },
+    {
+        "Id": "Base_Quest_Tutorial_2",
+        "Active": true,
+        "Title": "Gain Information",
+        "Description": "Let's see what city C has to say about our newly gained information",
+        "Steps": [
+            {
+                "Id": "Base_Quest_Tutorial_2_Step_1",
+                "Active": true,
+                "Objectives": [
+                    {
+                        "Text": "Visit City C.",
+                        "Type": "VisitStructure",
+                        "Properties": {
+                            "Target": "Base_Village_C"
+                        }
+                    }
+                ]
+            }
+        ],
+        "AcceptedFromStart": true,
+        "AutoComplete": true
+    }
+]

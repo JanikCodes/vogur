@@ -1,0 +1,18 @@
+using RenownedGames.AITree;
+using System;
+
+#ROOTNAMESPACEBEGIN#
+[NodeContent("#SCRIPTNAME#", "Custom/#SCRIPTNAME#")]
+public class #SCRIPTNAME# : ObserverDecorator
+{
+    public override event Action OnValueChange;
+
+    /// <summary>
+    /// Calculates the result of the condition.
+    /// </summary>
+    public override bool CalculateResult()
+    {
+        return true;
+    }
+}
+#ROOTNAMESPACEEND#

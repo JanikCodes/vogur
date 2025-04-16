@@ -1,0 +1,47 @@
+[
+    {
+        "Id": "Base_Village_A",
+        "Active": true,
+        "Name": "Village A",
+        "Description": "It's just village A.",
+        "OwnedByFactionId": "Base_Player",
+        "AssignedPrefabId": "BaseCity",
+        "AssignedDialogueId": "Base_Dialogue_City",
+        "Position": [
+            2.58,
+            0,
+            23.09
+        ],
+        "Rotation": -25
+    },
+    {
+        "Id": "Base_Village_B",
+        "Active": true,
+        "Name": "Village B",
+        "Description": "It's just village B.",
+        "OwnedByFactionId": "Base_Matronos",
+        "AssignedPrefabId": "BaseCity",
+        "AssignedDialogueId": "Base_Dialogue_City",
+        "Position": [
+            32.86,
+            0,
+            43.92
+        ],
+        "Rotation": 45
+    },
+    {
+        "Id": "Base_Village_C",
+        "Active": true,
+        "Name": "Village C",
+        "Description": "It's just village C.",
+        "OwnedByFactionId": "Base_Hunter",
+        "AssignedPrefabId": "BaseCity_2",
+        "AssignedDialogueId": "Base_Dialogue_City",
+        "Position": [
+            -14,
+            0,
+            77.3
+        ],
+        "Rotation": 75
+    }
+]

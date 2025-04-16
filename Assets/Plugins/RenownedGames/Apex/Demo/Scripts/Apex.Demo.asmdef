@@ -1,0 +1,17 @@
+{
+    "name": "Apex.Demo",
+    "rootNamespace": "",
+    "references": [
+        "GUID:341d04dbc3e6ced4f903de04a0918a48",
+        "GUID:5ff773a9eeefa25418cee624c90cb077"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

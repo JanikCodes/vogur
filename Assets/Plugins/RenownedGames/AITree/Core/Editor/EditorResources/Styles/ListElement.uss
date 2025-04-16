@@ -1,0 +1,49 @@
+.list-element {
+
+}
+
+.list-element-item {
+	-unity-text-align: middle-left;
+	padding-left: 35px;
+	height: 20px;
+}
+
+.list-element-item-icon {
+	top: 7px;
+	width: 17px;
+	height: 6px;
+	margin-left: -20px;
+	border-radius: 3px;
+}
+
+.list-element-item:hover {
+	background-color: #444444;
+}
+
+.selected.list-element-item {
+	background-color: #2c5d87;
+}
+
+
+.list-element-foldout > .unity-foldout__toggle {
+	height: 20px;
+
+	margin: 0;
+	padding: 0 0 0 2px;
+
+	align-items: center;
+
+	-unity-font-style: bold;
+}
+
+.list-element-foldout > #unity-content {
+	margin: 0;
+}
+
+.list-element-foldout > .list-element-item {
+	padding-left: 45px;
+}
+
+.list-element-foldout > .unity-foldout__toggle:hover {
+	background-color: #303030;
+}

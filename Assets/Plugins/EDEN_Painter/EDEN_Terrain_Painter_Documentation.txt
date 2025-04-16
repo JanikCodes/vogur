@@ -1,0 +1,43 @@
+
+==--------------------------------= Setup =--------------------------------==
+
+- On your terrain, add the component "EDEN Terrain Painter".
+- Either create your own texture profile from "Create/EDEN/New Texture Data" or use one of the pre-created profiles included in the package.
+- You will need to install the Unity Mathematics package from the package manager. 
+
+==-----------------------------= Properties =-----------------------------==
+
+Painter Script:
+
+ - Affects Neighbor Terrains - When enabled the effects will also carry over to neighbor terrains.
+ - Auto Update - I'm sure you can figure out what this does.
+
+Texture Profile:
+
+ - Base Layer - The main texture applied on the terrain. All other textures will be applied on top of this.
+ - Terrain Layers - The array of textures that use rule based painting. These will be applied in the order of the array.
+ 
+Terrain Layers:
+ - Layer - The terrain layer
+ - Smoothness - Blurriness/Smoothness of the terrain layer.
+
+ - Min Angle - The minimum angle (degrees) that the texture will appear on.
+ - Max Angle - The maximum angle (degrees) that the texture will appear on.
+ - Invert Angle Mask - Hmmmmmmmm, I wonder what this could do.
+
+ - Height Range - The height range that the texture will appear in.
+ - Invert Height Mask - .....
+
+ - Roughness Threshold - The threshold of roughness that the texture will appear above.
+ - Invert Roughness Mask - Come on, you don't need me to explain what this does.
+
+ - Noise Scale - Frequency (tiling) of the noise applied to the texture.
+ - Noise Magnitude - Strength of the noise applied to the texture.
+
+==-------------------------=---------------------=-------------------------==
+
+Please consider leaving a review for my asset as it really helps :)
+For any questions, or to show me what you have made with my asset, 
+please email me at wgappster@gmail.com
+
+==-------------------------=---------------------=-------------------------==

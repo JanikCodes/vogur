@@ -1,0 +1,15 @@
+using RenownedGames.AITree;
+
+#ROOTNAMESPACEBEGIN#
+[NodeContent("#SCRIPTNAME#", "Custom/#SCRIPTNAME#")]
+public class #SCRIPTNAME# : ConditionDecorator
+{
+    /// <summary>
+    /// Calculates the result of the condition.
+    /// </summary>
+    protected override bool CalculateResult()
+    {
+        return true;
+    }
+}
+#ROOTNAMESPACEEND#

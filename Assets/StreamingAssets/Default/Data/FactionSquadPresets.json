@@ -1,0 +1,126 @@
+[
+    {
+        "Id": "Base_Squad_Preset_1",
+        "Active": true,
+        "Soldiers": [
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Experienced",
+            "Base_Soldier_Military",
+            "Base_Soldier_Military"
+        ],
+        "AssignedFactionId": "Base_Hunter"
+    },
+    {
+        "Id": "Base_Squad_Preset_2",
+        "Active": true,
+        "Soldiers": [
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter"
+        ],
+        "AssignedFactionId": "Base_Hunter"
+    },
+    {
+        "Id": "Base_Squad_Preset_3",
+        "Active": true,
+        "Soldiers": [
+            "Base_Soldier_Starter",
+            "Base_Soldier_Experienced",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Experienced",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Experienced"
+        ],
+        "AssignedFactionId": "Base_Hunter"
+    },
+    {
+        "Id": "Base_Squad_Preset_3",
+        "Active": true,
+        "Soldiers": [
+            "Base_Soldier_Military",
+            "Base_Soldier_Military",
+            "Base_Soldier_Military",
+            "Base_Soldier_Military",
+            "Base_Soldier_Military",
+            "Base_Soldier_Starter"
+        ],
+        "AssignedFactionId": "Base_Hunter"
+    },
+    {
+        "Id": "Base_Squad_Preset_4",
+        "Active": true,
+        "Soldiers": [
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter"
+        ],
+        "AssignedFactionId": "Base_Hunter"
+    },
+    {
+        "Id": "Base_Squad_Preset_5",
+        "Active": true,
+        "Soldiers": [
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Experienced",
+            "Base_Soldier_Military",
+            "Base_Soldier_Military"
+        ],
+        "AssignedFactionId": "Base_Matronos"
+    },
+    {
+        "Id": "Base_Squad_Preset_6",
+        "Active": true,
+        "Soldiers": [
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter"
+        ],
+        "AssignedFactionId": "Base_Matronos"
+    },
+    {
+        "Id": "Base_Squad_Preset_7",
+        "Active": true,
+        "Soldiers": [
+            "Base_Soldier_Starter",
+            "Base_Soldier_Experienced",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Experienced",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Experienced"
+        ],
+        "AssignedFactionId": "Base_Matronos"
+    },
+    {
+        "Id": "Base_Squad_Preset_8",
+        "Active": true,
+        "Soldiers": [
+            "Base_Soldier_Military",
+            "Base_Soldier_Military",
+            "Base_Soldier_Military",
+            "Base_Soldier_Military",
+            "Base_Soldier_Military",
+            "Base_Soldier_Starter"
+        ],
+        "AssignedFactionId": "Base_Matronos"
+    },
+    {
+        "Id": "Base_Squad_Preset_9",
+        "Active": true,
+        "Soldiers": [
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter",
+            "Base_Soldier_Starter"
+        ],
+        "AssignedFactionId": "Base_Matronos"
+    }
+]

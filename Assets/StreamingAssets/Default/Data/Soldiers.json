@@ -1,0 +1,26 @@
+[
+    {
+        "Id": "Base_Soldier_Starter",
+        "Active": true,
+        "Name": "Basic Soldier",
+        "Description": "A fat fucking shit soldier",
+        "MovementSpeed": 4.7,
+        "MaxHealth": 340
+    },
+    {
+        "Id": "Base_Soldier_Experienced",
+        "Active": true,
+        "Name": "Experienced Soldier",
+        "Description": "A more experienced fucking shit soldier",
+        "MovementSpeed": 5.5,
+        "MaxHealth": 475
+    },
+    {
+        "Id": "Base_Soldier_Military",
+        "Active": true,
+        "Name": "Military Trained Soldier",
+        "Description": "A military trained soldier, damn.",
+        "MovementSpeed": 5.65,
+        "MaxHealth": 645
+    }
+]

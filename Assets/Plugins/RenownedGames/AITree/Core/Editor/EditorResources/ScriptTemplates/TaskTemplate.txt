@@ -1,0 +1,40 @@
+using RenownedGames.AITree;
+
+#ROOTNAMESPACEBEGIN#
+[NodeContent("#SCRIPTNAME#", "Tasks/Custom/#SCRIPTNAME#")]
+public class #SCRIPTNAME# : TaskNode
+{
+    /// <summary>
+    /// Called on behaviour tree is awake.
+    /// </summary>
+    protected override void OnInitialize()
+    {
+        base.OnInitialize();
+    }
+
+    /// <summary>
+    /// Called when behaviour tree enter in node.
+    /// </summary>
+    protected override void OnEntry()
+    {
+        base.OnEntry();
+    }
+
+    /// <summary>
+    /// Called every tick during node execution.
+    /// </summary>
+    /// <returns>State.</returns>
+    protected override State OnUpdate()
+    {
+        return State.Success;
+    }
+
+    /// <summary>
+    /// Called when behaviour tree exit from node.
+    /// </summary>
+    protected override void OnExit()
+    {
+        base.OnExit();
+    }
+}
+#ROOTNAMESPACEEND#

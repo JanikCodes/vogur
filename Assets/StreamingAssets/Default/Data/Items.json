@@ -1,0 +1,167 @@
+[
+    {
+        "Id": "Base_Stone",
+        "Active": true,
+        "Name": "Stone",
+        "Description": "It's a stone, what do you expect?",
+        "BaseValue": 65,
+        "MaxStackSize": 50,
+        "ItemType": "Resource",
+        "Rarity": "Common",
+        "FoodValue": 0
+    },
+    {
+        "Id": "Base_Hardwood",
+        "Active": true,
+        "Name": "Hardwood",
+        "Description": "Sturdy and reliable hardwood.",
+        "BaseValue": 50,
+        "MaxStackSize": 50,
+        "ItemType": "Resource",
+        "Rarity": "Common",
+        "FoodValue": 0
+    },
+    {
+        "Id": "Base_Iron_Ore",
+        "Active": true,
+        "Name": "Iron Ore",
+        "Description": "Unrefined iron ore.",
+        "BaseValue": 110,
+        "MaxStackSize": 50,
+        "ItemType": "Resource",
+        "Rarity": "Common",
+        "FoodValue": 0
+    },
+    {
+        "Id": "Base_Raw_Silk",
+        "Active": true,
+        "Name": "Raw Silk",
+        "Description": "Untreated silk ready for refinement.",
+        "BaseValue": 95,
+        "MaxStackSize": 50,
+        "ItemType": "Resource",
+        "Rarity": "Common",
+        "FoodValue": 0
+    },
+    {
+        "Id": "Base_Wine",
+        "Active": true,
+        "Name": "Wine",
+        "Description": "Fine wine.",
+        "BaseValue": 150,
+        "MaxStackSize": 3,
+        "ItemType": "Luxury",
+        "Rarity": "Common",
+        "FoodValue": 0
+    },
+    {
+        "Id": "Base_Beer",
+        "Active": true,
+        "Name": "Beer",
+        "Description": "Now that's what I'm talking about!",
+        "BaseValue": 75,
+        "MaxStackSize": 6,
+        "ItemType": "Luxury",
+        "Rarity": "Common",
+        "FoodValue": 0
+    },
+    {
+        "Id": "Base_Wool",
+        "Active": true,
+        "Name": "Wool",
+        "Description": "Soft wool from sheep.",
+        "BaseValue": 72,
+        "MaxStackSize": 50,
+        "ItemType": "Resource",
+        "Rarity": "Common",
+        "FoodValue": 0
+    },
+    {
+        "Id": "Base_Date_Fruit",
+        "Active": true,
+        "Name": "Date Fruit",
+        "Description": "Sweet and chewy date fruit.",
+        "BaseValue": 42,
+        "MaxStackSize": 75,
+        "ItemType": "Food",
+        "Rarity": "Common",
+        "FoodValue": 12
+    },
+    {
+        "Id": "Base_Olives",
+        "Active": true,
+        "Name": "Olives",
+        "Description": "A jar of tasty olives.",
+        "BaseValue": 84,
+        "MaxStackSize": 10,
+        "ItemType": "Food",
+        "Rarity": "Common",
+        "FoodValue": 18
+    },
+    {
+        "Id": "Base_Fish",
+        "Active": true,
+        "Name": "Fish",
+        "Description": "Freshly caught fish.",
+        "BaseValue": 40,
+        "MaxStackSize": 75,
+        "ItemType": "Food",
+        "Rarity": "Common",
+        "FoodValue": 20
+    },
+    {
+        "Id": "Base_Cheese",
+        "Active": true,
+        "Name": "Cheese",
+        "Description": "Delicious cheese.",
+        "BaseValue": 90,
+        "MaxStackSize": 30,
+        "ItemType": "Food",
+        "Rarity": "Rare",
+        "FoodValue": 40
+    },
+    {
+        "Id": "Base_Milk",
+        "Active": true,
+        "Name": "Milk",
+        "Description": "Moooh.",
+        "BaseValue": 60,
+        "MaxStackSize": 5,
+        "ItemType": "Food",
+        "Rarity": "Common",
+        "FoodValue": 20
+    },
+    {
+        "Id": "Base_Eggs",
+        "Active": true,
+        "Name": "Eggs",
+        "Description": "Gog Gog.",
+        "BaseValue": 52,
+        "MaxStackSize": 24,
+        "ItemType": "Food",
+        "Rarity": "Common",
+        "FoodValue": 32
+    },
+    {
+        "Id": "Base_Cow_Meat",
+        "Active": true,
+        "Name": "Cow Meat",
+        "Description": "Moooh. Ahhh!",
+        "BaseValue": 108,
+        "MaxStackSize": 32,
+        "ItemType": "Food",
+        "Rarity": "Common",
+        "FoodValue": 62
+    },
+    {
+        "Id": "Base_Bread",
+        "Active": true,
+        "Name": "Bread",
+        "Description": "Good smelling bread.",
+        "BaseValue": 44,
+        "MaxStackSize": 32,
+        "ItemType": "Food",
+        "Rarity": "Common",
+        "FoodValue": 46
+    }
+]

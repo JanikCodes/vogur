@@ -1,0 +1,24 @@
+{
+    "name": "AITreeEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:341d04dbc3e6ced4f903de04a0918a48",
+        "GUID:3c583a70120640c4bb70c2b72365e742",
+        "GUID:175d935920a136245855c0dd47b1e75e",
+        "GUID:b88b2a29417f97a49a1c0c3697ffb837",
+        "GUID:d54e067e22b30d84d974d345601e49b6",
+        "GUID:87eaf3fd1840b5c42a5f00c0a45ccaa1",
+        "GUID:e76ede12fafcba74f82c34ac5bb0a7b4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/RenownedGames/AITree/Core/Runtime/DevidedModules/Blackboard/Key/UnityTypes/Classes/TransformKey.cs.meta
+guid: 6bfcd12858790e148a9ec551428e04c2
+========
+guid: fa4c94d4d2031ab4986a05c7459908f1
+>>>>>>>> origin/init-key:Assets/RenownedGames/AITree/Core/Runtime/CoreModules/Key/Interfaces/IKeyCastable.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,38 @@
+#search-container {
+	min-height: 20px;
+	flex-direction: row;
+}
+
+#search-input {
+	flex-grow: 1;
+	align-items: center;
+}
+
+#search-placeholder {
+	position: absolute;
+	margin: 5px;
+	color: gray;
+}
+
+#blackboard-name {
+    position: absolute;
+
+    right: 5px;
+    bottom: 5px;
+
+    color: rgba(255, 255, 255, .1);
+    font-size: 20px;
+    -unity-font-style: bold;
+}
+
+.foldout > .unity-foldout__toggle {
+	background-color: rgb(70, 70, 70);
+	-unity-font-style: bold;
+
+	margin: 2px 0 0 0;
+	padding: 2px;
+}
+
+.foldout > #unity-content {
+	margin: 0;
+}

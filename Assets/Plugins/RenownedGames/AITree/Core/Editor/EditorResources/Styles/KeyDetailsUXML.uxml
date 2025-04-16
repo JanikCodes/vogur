@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Foldout class="foldout" name="key-foldout" text="KEY">
+        <ui:ScrollView name="key-foldout-scrollview">
+            <ui:IMGUIContainer class="container" name="pre-container" />
+            <ui:VisualElement class="container" name="type-container">
+                <ui:Label name="type-lable" text="Type" />
+                <ui:VisualElement name="type-color" />
+                <ui:Label name="type-field" text="" />
+            </ui:VisualElement>
+            <ui:IMGUIContainer class="container" name="post-container" />
+        </ui:ScrollView>
+    </ui:Foldout>
+    <ui:Foldout class="foldout" name="parent-foldout" text="PARENT">
+        <ui:IMGUIContainer class="container" name="parent-container" />
+    </ui:Foldout>
+</ui:UXML>

@@ -1,0 +1,15 @@
+using RenownedGames.AITree;
+
+#ROOTNAMESPACEBEGIN#
+[NodeContent("#SCRIPTNAME#", "Custom/#SCRIPTNAME#")]
+public class #SCRIPTNAME# : IntervalServiceNode
+{
+    /// <summary>
+    /// Service tick.
+    /// </summary>
+    protected override void OnTick()
+    {
+
+    }
+}
+#ROOTNAMESPACEEND#

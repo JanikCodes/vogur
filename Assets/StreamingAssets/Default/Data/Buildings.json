@@ -1,0 +1,188 @@
+[
+    {
+        "Id": "Base_Bakery",
+        "Active": true,
+        "Name": "Bakery",
+        "Description": "Freshly baked bread.",
+        "BuildPrice": 25000,
+        "BuildingType": "Consumables",
+        "ProduceItems": [
+            {
+                "ItemId": "Base_Bread",
+                "MinAmount": 8,
+                "MaxAmount": 18,
+                "Chance": 100
+            },
+            {
+                "ItemId": "Base_Bread",
+                "MinAmount": 8,
+                "MaxAmount": 12,
+                "Chance": 40
+            }
+        ],
+        "ProduceSoldiers": [],
+        "Intervall": 150
+    },
+    {
+        "Id": "Base_Winery",
+        "Active": true,
+        "Name": "Winery",
+        "Description": "The best wine in the city.",
+        "BuildPrice": 32000,
+        "BuildingType": "Consumables",
+        "ProduceItems": [
+            {
+                "ItemId": "Base_Wine",
+                "MinAmount": 1,
+                "MaxAmount": 2,
+                "Chance": 100
+            },
+            {
+                "ItemId": "Base_Wine",
+                "MinAmount": 1,
+                "MaxAmount": 2,
+                "Chance": 50
+            }
+        ],
+        "ProduceSoldiers": [],
+        "Intervall": 350
+    },
+    {
+        "Id": "Base_Farm",
+        "Active": true,
+        "Name": "Farm",
+        "Description": "Wow. This could be from minecraft!",
+        "BuildPrice": 11500,
+        "BuildingType": "Consumables",
+        "ProduceItems": [
+            {
+                "ItemId": "Base_Wool",
+                "MinAmount": 10,
+                "MaxAmount": 15,
+                "Chance": 100
+            },
+            {
+                "ItemId": "Base_Cheese",
+                "MinAmount": 5,
+                "MaxAmount": 11,
+                "Chance": 80
+            },
+            {
+                "ItemId": "Base_Cheese",
+                "MinAmount": 3,
+                "MaxAmount": 6,
+                "Chance": 30
+            }
+        ],
+        "ProduceSoldiers": [],
+        "Intervall": 300
+    },
+    {
+        "Id": "Base_Fish_Hut",
+        "Active": true,
+        "Name": "Fisher Hut",
+        "Description": "Let's catch some big ol fish!",
+        "BuildPrice": 16500,
+        "BuildingType": "Consumables",
+        "ProduceItems": [
+            {
+                "ItemId": "Base_Fish",
+                "MinAmount": 30,
+                "MaxAmount": 45,
+                "Chance": 100
+            },
+            {
+                "ItemId": "Base_Fish",
+                "MinAmount": 15,
+                "MaxAmount": 40,
+                "Chance": 45
+            }
+        ],
+        "ProduceSoldiers": [],
+        "Intervall": 275
+    },
+    {
+        "Id": "Base_Brewery",
+        "Active": true,
+        "Name": "Brewery",
+        "Description": "Produces alcoholic beverages such as beer, wine, and spirits.",
+        "BuildPrice": 23400,
+        "BuildingType": "Consumables",
+        "ProduceItems": [
+            {
+                "ItemId": "Base_Beer",
+                "MinAmount": 6,
+                "MaxAmount": 6,
+                "Chance": 100
+            },
+            {
+                "ItemId": "Base_Beer",
+                "MinAmount": 2,
+                "MaxAmount": 4,
+                "Chance": 40
+            }
+        ],
+        "ProduceSoldiers": [],
+        "Intervall": 200
+    },
+    {
+        "Id": "Base_Butchery",
+        "Active": true,
+        "Name": "Butchery",
+        "Description": "Hurting animals is not good, but sometimes needed.",
+        "BuildPrice": 29600,
+        "BuildingType": "Consumables",
+        "ProduceItems": [
+            {
+                "ItemId": "Base_Cow_Meat",
+                "MinAmount": 10,
+                "MaxAmount": 22,
+                "Chance": 100
+            },
+            {
+                "ItemId": "Base_Cow_Meat",
+                "MinAmount": 6,
+                "MaxAmount": 16,
+                "Chance": 40
+            }
+        ],
+        "ProduceSoldiers": [],
+        "Intervall": 180
+    },
+    {
+        "Id": "Base_Animal_Farm",
+        "Active": true,
+        "Name": "Animal Farm",
+        "Description": "Mooooh. Meeeeh. Gog Gog.",
+        "BuildPrice": 26200,
+        "BuildingType": "Consumables",
+        "ProduceItems": [
+            {
+                "ItemId": "Base_Milk",
+                "MinAmount": 2,
+                "MaxAmount": 5,
+                "Chance": 100
+            },
+            {
+                "ItemId": "Base_Eggs",
+                "MinAmount": 12,
+                "MaxAmount": 16,
+                "Chance": 100
+            },
+            {
+                "ItemId": "Base_Milk",
+                "MinAmount": 2,
+                "MaxAmount": 5,
+                "Chance": 40
+            },
+            {
+                "ItemId": "Base_Eggs",
+                "MinAmount": 6,
+                "MaxAmount": 12,
+                "Chance": 40
+            }
+        ],
+        "ProduceSoldiers": [],
+        "Intervall": 240
+    }
+]

@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement class="selection-border" picking-mode="Ignore" />
+    <ui:VisualElement name="node">
+        <ui:VisualElement name="header" picking-mode="Ignore">
+            <ui:VisualElement name="input" class="connector" />
+        </ui:VisualElement>
+        <ui:VisualElement name="body" picking-mode="Ignore">
+            <RenownedGames.AITreeEditor.EmptyDropTarget name="decorators-container"></RenownedGames.AITreeEditor.EmptyDropTarget>
+            <ui:VisualElement class="node-info" picking-mode="Ignore">
+                <RenownedGames.AITreeEditor.UIElements.SequenceNumberView name="sequence-number" text="-1" />
+                <RenownedGames.AITreeEditor.UIElements.NodeProgressView />
+                <ui:VisualElement name="info-header" picking-mode="Ignore">
+                    <ui:VisualElement name="info-icon" picking-mode="Ignore" />
+                    <ui:Label name="title-label" class="info-title" text="Title" picking-mode="Ignore" />
+                </ui:VisualElement>
+                <ui:VisualElement name="info-footer" picking-mode="Ignore">
+                    <ui:Label name="info-description" text="Description" picking-mode="Ignore" />
+                </ui:VisualElement>  
+            </ui:VisualElement>
+            <RenownedGames.AITreeEditor.EmptyDropTarget name="services-container"></RenownedGames.AITreeEditor.EmptyDropTarget>
+        </ui:VisualElement>
+        <ui:VisualElement name="footer" picking-mode="Ignore">
+            <ui:VisualElement name="output" class="connector" />
+        </ui:VisualElement>
+    <ui:VisualElement name="breakpoint" />
+    </ui:VisualElement>
+</ui:UXML>

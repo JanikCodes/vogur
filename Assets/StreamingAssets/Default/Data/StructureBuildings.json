@@ -1,0 +1,107 @@
+[
+    {
+        "Id": "Base_Village_B_Bakery",
+        "Active": true,
+        "StructureId": "Base_Village_B",
+        "BuildingId": "Base_Bakery",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_B_Winery",
+        "Active": true,
+        "StructureId": "Base_Village_B",
+        "BuildingId": "Base_Winery",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_B_Fish_Hut",
+        "Active": true,
+        "StructureId": "Base_Village_B",
+        "BuildingId": "Base_Fish_Hut",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_B_Brewery",
+        "Active": true,
+        "StructureId": "Base_Village_B",
+        "BuildingId": "Base_Brewery",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_B_Animal_Farm",
+        "Active": true,
+        "StructureId": "Base_Village_B",
+        "BuildingId": "Base_Animal_Farm",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_A_Animal_Farm",
+        "Active": true,
+        "StructureId": "Base_Village_A",
+        "BuildingId": "Base_Animal_Farm",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_A_Butchery",
+        "Active": true,
+        "StructureId": "Base_Village_A",
+        "BuildingId": "Base_Butchery",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_A_Farm",
+        "Active": true,
+        "StructureId": "Base_Village_A",
+        "BuildingId": "Base_Farm",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_C_Bakery",
+        "Active": true,
+        "StructureId": "Base_Village_C",
+        "BuildingId": "Base_Bakery",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_C_Winery",
+        "Active": true,
+        "StructureId": "Base_Village_C",
+        "BuildingId": "Base_Winery",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_C_Fish_Hut",
+        "Active": true,
+        "StructureId": "Base_Village_C",
+        "BuildingId": "Base_Fish_Hut",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_C_Brewery",
+        "Active": true,
+        "StructureId": "Base_Village_C",
+        "BuildingId": "Base_Brewery",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_C_Animal_Farm",
+        "Active": true,
+        "StructureId": "Base_Village_C",
+        "BuildingId": "Base_Animal_Farm",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_C_Farm",
+        "Active": true,
+        "StructureId": "Base_Village_C",
+        "BuildingId": "Base_Farm",
+        "AutoBuildAtStart": true
+    },
+    {
+        "Id": "Base_Village_C_Butchery",
+        "Active": true,
+        "StructureId": "Base_Village_C",
+        "BuildingId": "Base_Butchery",
+        "AutoBuildAtStart": true
+    }
+]

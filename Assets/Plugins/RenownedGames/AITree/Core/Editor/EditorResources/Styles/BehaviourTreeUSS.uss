@@ -1,0 +1,102 @@
+/* Variables */
+:root {
+  --border-color: rgb(35, 35, 35);
+}
+
+/* Grid uss */
+GridBackground {
+    --grid-background-color: rgb(40, 40, 40);
+    --line-color: rgba(255, 255, 255, 0.04);
+    --thick-line-color: rgba(0, 0, 0, .4);
+    --spacing: 15;
+}
+
+/* Toolbar */
+#toolbar-container {
+    flex-direction: row;
+}
+
+#toolbar-left {
+    flex-grow: 1;
+    justify-content: flex-start;
+}
+
+#toolbar-right {
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+ToolbarButton {
+    -unity-text-align: middle-center;
+}
+
+ToolbarButton:focus {
+    border-color: #292929;
+}
+
+#auto-save-toggle {
+    margin-right: -2px;
+}
+
+/* Tree Editor */
+#tree-container {    
+    flex-grow: 1;
+}
+
+#tree{
+    flex-grow: 1;
+}
+
+#simulating-border {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    margin: 10px;
+
+    border-color: rgba(169, 90, 0, .75);
+    border-width: 6px;
+    border-radius: 12px; 
+
+    display: none;
+}
+
+#simulating-lable {
+    position: absolute;
+
+    left: 10px;
+    top: 5px;
+
+    color: rgba(217, 217, 6, .2);
+    font-size: 50px;
+    -unity-font-style: bold;
+}
+
+#tree-name {
+    position: absolute;
+
+    right: 20px;
+    bottom: 15px;
+
+    color: rgba(255, 255, 255, .1);
+    font-size: 50px;
+    -unity-font-style: bold;
+}
+
+#node-description {
+    position: absolute;
+
+    left: 20px;
+    bottom: 20px;
+    width: 500px;
+
+    white-space: normal;
+    text-overflow: ellipsis;
+
+    color: rgba(255, 255, 255, .5);
+    font-size: 15px;
+    -unity-font-style: italic;
+}

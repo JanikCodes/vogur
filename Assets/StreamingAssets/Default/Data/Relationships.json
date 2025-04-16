@@ -1,0 +1,56 @@
+[
+    {
+        "Id": "Base_Player",
+        "Active": true,
+        "Relationships": [
+            {
+                "FactionId": "Base_Player",
+                "RelationshipValue": 100
+            },
+            {
+                "FactionId": "Base_Hunter",
+                "RelationshipValue": -30
+            },
+            {
+                "FactionId": "Base_Matronos",
+                "RelationshipValue": 0
+            }
+        ]
+    },
+    {
+        "Id": "Base_Hunter",
+        "Active": true,
+        "Relationships": [
+            {
+                "FactionId": "Base_Player",
+                "RelationshipValue": -30
+            },
+            {
+                "FactionId": "Base_Hunter",
+                "RelationshipValue": 100
+            },
+            {
+                "FactionId": "Base_Matronos",
+                "RelationshipValue": -50
+            }
+        ]
+    },
+    {
+        "Id": "Base_Matronos",
+        "Active": true,
+        "Relationships": [
+            {
+                "FactionId": "Base_Player",
+                "RelationshipValue": 0
+            },
+            {
+                "FactionId": "Base_Hunter",
+                "RelationshipValue": -50
+            },
+            {
+                "FactionId": "Base_Matronos",
+                "RelationshipValue": 100
+            }
+        ]
+    }
+]

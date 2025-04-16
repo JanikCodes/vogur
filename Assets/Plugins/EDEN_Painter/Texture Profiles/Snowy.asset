@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b36f3eba2f0cc42ba3190856480629, type: 3}
+  m_Name: Snowy
+  m_EditorClassIdentifier: 
+  baseLayer: {fileID: 8574412962073106934, guid: 59b98ca43f27d8c4a89d4058d2a962e5,
+    type: 2}
+  terrainLayers:
+  - layer: {fileID: 8574412962073106934, guid: c997c17aa360cb749a27932fe3bdfcce, type: 2}
+    smoothness: 0
+    minAngle: 12
+    maxAngle: 90
+    invertAngleMask: 0
+    heightRange:
+      x: 0
+      y: 5000
+    invertHeightMask: 0
+    roughnessThreshold: 1
+    invertRoughnessMask: 0
+    noiseScale: 15
+    noiseMagnitude: 15
+  - layer: {fileID: 8574412962073106934, guid: 795e383430200a14bb52726e97a0e7f4, type: 2}
+    smoothness: 0
+    minAngle: 0
+    maxAngle: 90
+    invertAngleMask: 0
+    heightRange:
+      x: 0
+      y: 5000
+    invertHeightMask: 0
+    roughnessThreshold: 0.227
+    invertRoughnessMask: 0
+    noiseScale: 15
+    noiseMagnitude: 15

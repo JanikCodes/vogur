@@ -1,0 +1,17 @@
+{
+    "name": "AITree.Integrations.AstarPathfindingProject",
+    "rootNamespace": "",
+    "references": [
+        "GUID:175d935920a136245855c0dd47b1e75e",
+        "GUID:efa45043feb7e4147a305b73b5cea642"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
