@@ -1,3 +1,13 @@
+## Open Source
+Thanks for checking out this project. I'll give a brief overview how to get started playing.
+
+In the project you'll find 2 scenes, 1. `PersistantScene` and 2. `WorldScene`. 
+
+If you want to start the game, press play while in the `PersistantScene` as this scene acts as the starting point to get certain systems up n running.
+
+## Where is everything??
+A lot of the games systems are not directly visible to the eye and hidden below, like the modding system, inventory, trading, economy, squad management and so on. A skilled coder or an organized team could really shine here.
+
 ## Frameworks
 We're using [AI Tree](https://renownedgames.gitbook.io/ai-tree/) for our AI logic. It's a behavior tree framework.
 
@@ -99,3 +109,8 @@ This is how it would look like to use this newly added dialogue requirement
     }
 }
 ```
+
+## Dialogue
+Dialogue works extremely similar to the quests in terms of creating & managing them.
+
+Sadly I did not have the time to build a tool that helps creating those JSON files as the game did not reach that stage of production yet.
